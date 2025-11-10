@@ -7,7 +7,7 @@ interface Musician { void play(); }
 interface Teacher { void teach(); }
 interface Learner { void learn(); }
 
-public class Individual implements Programmer, Musician, Teacher, Learner {
+public class Individual implements Programmer, Student, Musician, Teacher, Learner {
 
     private final Programmer programmer = () ->
         System.out.println("💻 writing clean, concurrent code in go, java, python3, typescript, and c++");
@@ -23,15 +23,16 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
 
     private final Learner learner = () ->
         System.out.println("🧩 lifelong learner, currently interested in distributed systems, cloud-native backends,
-                                multi-agent AI systems, and post-rock, post-punk.
+                            multi-agent AI systems, and post-rock, post-punk. " + 
 
-                                previously interested in pure mathematics, history, theoretical physics");
+                           "previously interested in pure mathematics, history, theoretical physics");
 
     private void introduce() {
         System.out.println("Hey, thanks for stopping by! Feel free to contact at pwuxun@gmail.com"); 
     }
 
     @Override public void code() { programmer.code(); }
+    @Override public void student() { student.student(); }
     @Override public void play() { musician.play(); }
     @Override public void teach() { teacher.teach(); }
     @Override public void learn() { learner.learn(); }
