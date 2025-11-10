@@ -18,8 +18,8 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
         System.out.println("📚 physics teacher, digital design TA");
 
     private final Learner learner = () ->
-        System.out.println("🧩 lifelong learner, currently interested in distributed systems, systems programming,
-                                cloud-native backends, multi-agent systems, and post-rock, post-punk.
+        System.out.println("🧩 lifelong learner, currently interested in distributed systems, cloud-native backends,
+                                multi-agent AI systems, and post-rock, post-punk.
 
                                 previously interested in pure mathematics, history);
 
