@@ -1,7 +1,8 @@
-## Hi, nice to meet you! 👋
+## Hi, I'm Philip! 👋
 
 ```java
 interface Programmer { void code(); }
+interface Studetn { void student(); }
 interface Musician { void play(); }
 interface Teacher { void teach(); }
 interface Learner { void learn(); }
@@ -10,6 +11,9 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
 
     private final Programmer programmer = () ->
         System.out.println("💻 writing clean, concurrent code in go, java, python3, typescript, and c++");
+
+    private final Student student = () ->
+        System.out.println("🎓 systems and architecture + info interworking at Georgia Tech"); 
 
     private final Musician musician = () ->
         System.out.println("🎸 clarinetist, pianist");
@@ -30,7 +34,7 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
 
     public static void main(String[] args) {
         var me = new Individual();
-        System.out.println("✨ Hey! I'm Philip. Thanks for stopping by!");
+        System.out.println("✨ Hey! Thanks for stopping by! Feel free to contact at pwuxun@gmail.com");
         me.code();
         me.play();
         me.teach();
