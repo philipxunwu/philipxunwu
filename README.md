@@ -12,14 +12,16 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
         System.out.println("💻 writing clean, modular code in go, java, python3, typescript, and c++");
 
     private final Musician musician = () ->
-        System.out.println("🎸 clarinetist, pianist, lover of rock and jazz");
+        System.out.println("🎸 clarinetist, pianist");
 
     private final Teacher teacher = () ->
         System.out.println("📚 sharing knowledge, TAing for ECE 2031");
 
     private final Learner learner = () ->
         System.out.println("🧩 lifelong learner, currently interested in distributed systems, systems programming,
-                                cloud-native backends, and multi-agent systems");
+                                cloud-native backends, multi-agent systems, and post-rock, post-punk.
+
+                                previously interested in real analysis, abstract algebra, history, classical mechanics");
 
     @Override public void code() { programmer.code(); }
     @Override public void play() { musician.play(); }
