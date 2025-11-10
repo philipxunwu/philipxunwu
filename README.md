@@ -31,6 +31,10 @@ public class Individual implements Programmer, Student, Musician, Teacher, Learn
         System.out.println("Hey, thanks for stopping by! Feel free to contact at pwuxun@gmail.com"); 
     }
 
+
+
+
+
     @Override public void code() { programmer.code(); }
     @Override public void student() { student.student(); }
     @Override public void play() { musician.play(); }
