@@ -2,7 +2,7 @@
 
 ```java
 interface Programmer { void code(); }
-interface Studetn { void student(); }
+interface Student { void student(); }
 interface Musician { void play(); }
 interface Teacher { void teach(); }
 interface Learner { void learn(); }
