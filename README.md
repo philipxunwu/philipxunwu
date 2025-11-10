@@ -15,7 +15,7 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
         System.out.println("🎸 clarinetist, pianist");
 
     private final Teacher teacher = () ->
-        System.out.println("📚 sharing knowledge, TAing for ECE 2031");
+        System.out.println("📚 physics teacher, digital design TA");
 
     private final Learner learner = () ->
         System.out.println("🧩 lifelong learner, currently interested in distributed systems, systems programming,
