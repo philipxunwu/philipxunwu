@@ -37,7 +37,7 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
 }
 ```
 ## 🧰 Technologies & Tools
----
+
 ### Cloud Services and Databases 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&logoWidth=40)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white&logoWidth=40)
