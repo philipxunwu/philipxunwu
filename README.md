@@ -34,7 +34,7 @@ public class Individual implements Programmer, Student, Musician, Teacher, Learn
                            previously interested in pure mathematics, history, theoretical physics""");
 
     private void introduce() {
-        System.out.println("Hey, thanks for stopping by! Feel free to contact at pwuxun@gmail.com"); 
+        System.out.println("Hey, thanks for stopping by! Feel free to contact at pwu320@gatech.edu"); 
     }
 
     public static void main(String[] args) {
