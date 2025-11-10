@@ -25,7 +25,7 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
         System.out.println("🧩 lifelong learner, currently interested in distributed systems, cloud-native backends,
                                 multi-agent AI systems, and post-rock, post-punk.
 
-                                previously interested in pure mathematics, history, theoretical physics);
+                                previously interested in pure mathematics, history, theoretical physics");
 
     private void introduce() {
         System.out.println("Hey, thanks for stopping by! Feel free to contact at pwuxun@gmail.com"); 
