@@ -27,6 +27,10 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
 
                                 previously interested in pure mathematics, history, theoretical physics);
 
+    private void introduce() {
+        System.out.println("Hey, thanks for stopping by! Feel free to contact at pwuxun@gmail.com"); 
+    }
+
     @Override public void code() { programmer.code(); }
     @Override public void play() { musician.play(); }
     @Override public void teach() { teacher.teach(); }
@@ -34,7 +38,7 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
 
     public static void main(String[] args) {
         var me = new Individual();
-        System.out.println("✨ Hey! Thanks for stopping by! Feel free to contact at pwuxun@gmail.com");
+        me.introduce(); 
         me.code();
         me.play();
         me.teach();
