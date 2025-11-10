@@ -18,7 +18,8 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
         System.out.println("📚 sharing knowledge, TAing for ECE 2031");
 
     private final Learner learner = () ->
-        System.out.println("🧩 lifelong learner, currently interested in distributed systems, systems programming, cloud-native backends, and multi-agent systems");
+        System.out.println("🧩 lifelong learner, currently interested in distributed systems, systems programming,
+                                cloud-native backends, and multi-agent systems");
 
     @Override public void code() { programmer.code(); }
     @Override public void play() { musician.play(); }
