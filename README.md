@@ -21,7 +21,7 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
         System.out.println("🧩 lifelong learner, currently interested in distributed systems, cloud-native backends,
                                 multi-agent AI systems, and post-rock, post-punk.
 
-                                previously interested in pure mathematics, history);
+                                previously interested in pure mathematics, history, theoretical physics);
 
     @Override public void code() { programmer.code(); }
     @Override public void play() { musician.play(); }
