@@ -59,6 +59,7 @@ public class Individual implements Programmer, Musician, Teacher, Learner {
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&logoWidth=40)
 ![React Flow](https://img.shields.io/badge/React%20Flow-0099FF?style=for-the-badge&logo=react&logoColor=white&logoWidth=40)
 ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white&logoWidth=40)
+![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=for-the-badge&logo=mapbox&logoColor=white&logoWidth=40)
 
 ### Backend Frameworks and Libraries 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white&logoWidth=40)
