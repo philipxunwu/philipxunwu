@@ -13,7 +13,7 @@ public class Individual implements Programmer, Student, Musician, Teacher, Learn
         System.out.println("💻 writing clean, concurrent code in go, java, python3, typescript, and c++");
 
     private final Student student = () ->
-        System.out.println("🎓 systems and architecture + info interworking at Georgia Tech"); 
+        System.out.println("🎓 systems and architecture + info internetworks at Georgia Tech"); 
 
     private final Musician musician = () ->
         System.out.println("🎸 clarinetist, pianist");
