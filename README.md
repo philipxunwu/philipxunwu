@@ -41,6 +41,7 @@ public class Individual implements Programmer, Student, Musician, Teacher, Learn
         var me = new Individual();
         me.introduce(); 
         me.code();
+        me.student(); 
         me.play();
         me.teach();
         me.learn();
