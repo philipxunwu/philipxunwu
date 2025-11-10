@@ -9,6 +9,12 @@ interface Learner { void learn(); }
 
 public class Individual implements Programmer, Student, Musician, Teacher, Learner {
 
+    @Override public void code() { programmer.code(); }
+    @Override public void student() { student.student(); }
+    @Override public void play() { musician.play(); }
+    @Override public void teach() { teacher.teach(); }
+    @Override public void learn() { learner.learn(); }
+
     private final Programmer programmer = () ->
         System.out.println("💻 writing clean, concurrent code in go, java, python3, typescript, and c++");
 
@@ -30,16 +36,6 @@ public class Individual implements Programmer, Student, Musician, Teacher, Learn
     private void introduce() {
         System.out.println("Hey, thanks for stopping by! Feel free to contact at pwuxun@gmail.com"); 
     }
-
-
-
-
-
-    @Override public void code() { programmer.code(); }
-    @Override public void student() { student.student(); }
-    @Override public void play() { musician.play(); }
-    @Override public void teach() { teacher.teach(); }
-    @Override public void learn() { learner.learn(); }
 
     public static void main(String[] args) {
         var me = new Individual();
