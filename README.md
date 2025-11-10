@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi, nice to meet you! 👋
 
 ```java
 interface Programmer { void code(); }
