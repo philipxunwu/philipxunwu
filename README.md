@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-```
+```java
 interface Programmer { void code(); }
 interface Musician { void play(); }
 interface Teacher { void teach(); }
