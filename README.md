@@ -9,7 +9,7 @@ interface Learner { void learn(); }
 public class Individual implements Programmer, Musician, Teacher, Learner {
 
     private final Programmer programmer = () ->
-        System.out.println("💻 writing clean, modular code in go, java, python, typescript, and c++");
+        System.out.println("💻 writing clean, modular code in go, java, python3, typescript, and c++");
 
     private final Musician musician = () ->
         System.out.println("🎸 clarinetist, pianist, lover of rock and jazz");
