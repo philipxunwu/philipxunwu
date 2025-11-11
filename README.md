@@ -51,9 +51,9 @@ public class Individual implements Programmer, Student, Musician, Teacher, Learn
 ## 🧰 Technologies & Tools
 
 ### Developer Tools
-![VS Code](https://img.shields.io/badge/VS%20Code-Experienced-blue?style=flat&logo=visual-studio-code&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-Experienced-green?style=flat&logo=pycharm&logoColor=white)
-![GitLab CI/CD](https://img.shields.io/badge/GitLab%20CI/CD-Experienced-orange?style=flat&logo=gitlab&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab%20CI%2FCD-FCA121?style=for-the-badge&logo=gitlab&logoColor=white)
 
 ### Cloud Services and Databases 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&logoWidth=40)
