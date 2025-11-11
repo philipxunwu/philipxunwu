@@ -71,13 +71,6 @@ public class Individual implements Programmer, Student, Musician, Teacher, Learn
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black&logoWidth=40)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white&logoWidth=40)
 
-### Frontend Frameworks and Libraries 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&logoWidth=40)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&logoWidth=40)
-![React Flow](https://img.shields.io/badge/React%20Flow-0099FF?style=for-the-badge&logo=react&logoColor=white&logoWidth=40)
-![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white&logoWidth=40)
-![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=for-the-badge&logo=mapbox&logoColor=white&logoWidth=40)
-
 ### Backend Frameworks and Libraries 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white&logoWidth=40)
 ![Gin](https://img.shields.io/badge/Gin-00C1B4?style=for-the-badge&logo=go&logoColor=white)
@@ -86,6 +79,15 @@ public class Individual implements Programmer, Student, Musician, Teacher, Learn
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&logoWidth=40)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&logoWidth=40)
 ![gRPC](https://img.shields.io/badge/gRPC-00C7B7?style=for-the-badge&logo=grpc&logoColor=white&logoWidth=40)
+
+
+### Frontend Frameworks and Libraries 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&logoWidth=40)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&logoWidth=40)
+![React Flow](https://img.shields.io/badge/React%20Flow-0099FF?style=for-the-badge&logo=react&logoColor=white&logoWidth=40)
+![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white&logoWidth=40)
+![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=for-the-badge&logo=mapbox&logoColor=white&logoWidth=40)
+
 
 
 <!--
