@@ -1,7 +1,5 @@
 ## Hi, I'm Philip! 👋
 
-[![philip wu profile views](https://u8views.com/api/v1/github/profiles/173853635/views/day-week-month-total-count.svg)](https://u8views.com/github/philipxunwu)
-
 ```java
 interface Programmer { void code(); }
 interface Student { void student(); }
